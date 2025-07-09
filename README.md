@@ -190,7 +190,7 @@ ncmp(NetEase Cloud Music Partner/网易云音乐合伙人)
 - 任务提交默认添加了 15-20 秒的等待时间，避免被检测异常
 - 建议使用 GitHub Actions 的定时任务功能，避免遗漏每日任务
 - 网易云音乐的 Cookie 两周左右就会过期，建议配置邮箱以便及时收到失效通知
-- Cookie 自动刷新使用了[pyncm](https://github.com/mos9527/pyncm)库进行登陆，并且强制使用md5加密后的密码
+- Cookie 自动刷新使用了[pyncm](https://github.com/mos9527/pyncm)库进行登陆，如果使用明文会自动将密码进行md5加密
 
 ## 声明
 
